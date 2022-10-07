@@ -19,6 +19,7 @@ function sachin(money){
 }
 
 var veg = sachin(500);
+
 console.log(veg);
 
 function functionName(city, street, age, is_married){
