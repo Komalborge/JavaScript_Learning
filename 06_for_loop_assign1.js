@@ -49,3 +49,21 @@ for (let index = 5; index <= 50; index + 5) {
     if (constresult == 50)
         break;
 }
+
+
+var wordLenghtSquare = function(givenWord){
+    var wordLength = givenWord.length;
+    var sqr = wordLength * wordLength;
+    return sqr;
+ 
+ }
+ var result = wordLenghtSquare("JavaScript");
+ log(result);
+ 
+ var givenString = "I am Angular Developer";
+ var strLength = givenString.length;
+ var arryayWords = givenString.split(" ");
+ var count  = arryayWords.length;
+ var res = strLength / count;
+ log(res)
+ 
