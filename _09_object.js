@@ -3,9 +3,11 @@ let mohitperson={
     age:42,
     "ismarrie":true
 }
-console.log(object.entries(mohitperson));
-console.log(object.key(mohitperson));
-
+console.log("=========== in operator================");
+let isAvailable = "fullName" in mohitPerson;
+console.log(isAvailable);
+console.log("city" in mohitPerson);
+console.log("===========================");
 
 
 let person={
@@ -18,6 +20,7 @@ let person={
         pincode:12345,
         city:"pune",
         state:"MH",
+    
     },
     details:function(){
         let personDetails=`Details are:${this.fullName},${this.age},${this.address.city}`
