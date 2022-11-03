@@ -9,3 +9,22 @@ function outer() {
 }
 let returnValue = outer();
 returnValue();
+
+var global_variable=200;
+ function outside(){
+    let outerside_fun_variable=100;
+    let innerside=function() {
+        let innerside_fun_variable=300;
+        console.log(innerside_fun_variable,outerside_fun_variable,global_variable);
+    }
+    return innerside;
+ }
+ let returnvalue=outside();
+returnValue();
+
+
+
+
+
+
+
