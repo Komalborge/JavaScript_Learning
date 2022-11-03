@@ -12,3 +12,17 @@ function copy_assignment() {
 
 let returnFun = do_assignment(copy_assignment);
 returnFun();
+console.log("---------------------practice---------------");
+function uideveloper(callback){
+    console.log("i am ui developer");
+    callback
+    return function(){
+        console.log(" yahooo mai toh ban gaya");
+    }
+}
+function reactdeveloper(){
+    console.log("i am a react developer");
+}
+
+let returnval=uideveloper(reactdeveloper);
+returnval();
